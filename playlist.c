@@ -337,15 +337,15 @@ const char *cPluginPlaylist::CommandLineHelp(void)
          "  -B           --nodelete_begin               Hide the delete all messages line at begin of messagelist\n"
          "  -e           --delete_end                   Show the delete all messages line at end of messagelist\n"
          "  -E           --nodelete_end                 Hide the delete all messages line at end of messagelist\n"
-         "  -d xx        --min_entrys=xx                minimum entrys for display delete all messages line at begin and end (include -b and -e)\n"
-         "  -h xx        --holdtime_history=xx          minimum time (min) for message in historyqueue (OSD-list) 5-999\n"
-         "  -r xx        --holdtime_respones=xx         minumum time (min) for responses in queue (readable by SAQRESP) 2-199\n"
-         "  -s           --sort_ascending               sortoption for messagelist (OSD)\n"
-         "  -S           --sort_descending              sortoption for messagelist (OSD)\n"
+         "  -d xx        --min_entrys=xx                Minimum entries for display delete all messages line at begin and end (include -b and -e)\n"
+         "  -h xx        --holdtime_history=xx          Minimum time (min) for message in history queue (OSD-list) 5-999\n"
+         "  -r xx        --holdtime_respones=xx         Minimum time (min) for responses in queue (readable by SAQRESP) 2-199\n"
+         "  -s           --sort_ascending               Sort order for messagelist (OSD)\n"
+         "  -S           --sort_descending              Sort order for messagelist (OSD)\n"
          "  -v           --verbose                      Enable more logging\n"
          "  -V           --noverbose                    Disable more loggig\n"
-         "               --nosetup_commandline          Hide the Preferr Command Line Parameter form setup-menu\n"
-         "               --ns_commandline               same as --nosetup_commandline";
+         "               --nosetup_commandline          Hide the Prefer Command Line Parameter from setup menu\n"
+         "               --ns_commandline               Same as --nosetup_commandline\n";
          // free: a c f g i j k l o p q t u v w x y z
 }
 
