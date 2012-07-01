@@ -1,0 +1,7 @@
+*.bak
+*.o
+*.so
+libvdr-playlist.so*
+*.tar.gz
+*.tgz
+*~
