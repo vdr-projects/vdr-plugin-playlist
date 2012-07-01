@@ -159,7 +159,11 @@ cPluginPlaylist::cPluginPlaylist(void)
   // Initialize any member variables here.
   // DON'T DO ANYTHING ELSE THAT MAY HAVE SIDE EFFECTS, REQUIRE GLOBAL
   // VDR OBJECTS TO EXIST OR PRODUCE ANY OUTPUT!
+#if VDRVERSNUM >= 10507
+  OSDLanguage = NULL;
+#else
   OSDLanguage = -1;
+#endif
   PluginPlaylist = this;
 }
 
