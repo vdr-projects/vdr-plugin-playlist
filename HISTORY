@@ -8,3 +8,9 @@ VDR Plugin 'playlist' Revision History
 2004-10-08: Version 0.0.2
 
 * Bug fixes
+
+2012-07-01 Martin Dummer <martin.dummer@gmx.net>
+
+- edit the README file: adjust mail addresses and web URLs
+- converted README von ISO-8859-1 to UTF-8
+
