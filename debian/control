@@ -1,0 +1,12 @@
+Source: vdr-plugin-playlist
+Section: misc
+Priority: extra
+Maintainer: Hardy Flor <HFlor@gmx.de>
+Build-Depends: debhelper (>> 3.0.0), vdr-dev (>= 1.2.6-5)
+Standards-Version: 3.5.2
+
+Package: vdr-plugin-playlist
+Architecture: i386
+Depends: ${shlibs:Depends}, vdr (>= 1.2.6-5)
+Description: Plugin for VDR to display playlist for recordings
+ Patchlevel: ${patchlevel}
