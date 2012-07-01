@@ -13,4 +13,8 @@ VDR Plugin 'playlist' Revision History
 
 - edit the README file: adjust mail addresses and web URLs
 - converted README von ISO-8859-1 to UTF-8
+- merge patches from debian source-packages from http://e-Tobi.net
+    Adds -fPIC to Makefile to fix potential FTBFS
+    Support for the APIVERSION define as introduced in VDR-1.3.47 by Thomas Günther <tom@toms-cafe.de>
+    Changes for VDR >= 1.3.25 and VDR >= 1.3.36 by viking at vdrportal.de
 

@@ -154,7 +154,11 @@ void cMenuRecordingSelect::SetHelpKeys(void)
     else
     {
       cRecording *recording = GetRecording(ri);
+#if VDRVERSNUM >= 10325
+      SetHelp(singleselect ? tr("Select") : tr("Add"), singleselect ? NULL : ri->IsMark() ? tr("UnMark") : tr("Mark"), deleterecords.u ? tr("Delete") : NULL, (recording && recording->Info()->Description() && *recording->Info()->Description()) ? tr("Summary") : NULL);
+#else
       SetHelp(singleselect ? tr("Select") : tr("Add"), singleselect ? NULL : ri->IsMark() ? tr("UnMark") : tr("Mark"), deleterecords.u ? tr("Delete") : NULL, (recording && recording->Summary() && *recording->Summary()) ? tr("Summary") : NULL);
+#endif
     }
   } else
   {
@@ -256,9 +260,18 @@ eOSState cMenuRecordingSelect::Summary(void)
   if (ri && !ri->IsDirectory())
   {
     cRecording *recording = GetRecording(ri);
+#if VDRVERSNUM >= 10325
+    if (recording && recording->Info()->Description() && *recording->Info()->Description())
+#else
     if (recording && recording->Summary() && *recording->Summary())
+#endif
+
 #if VDRVERSNUM >= 10307
+#if VDRVERSNUM >= 10325
+      return AddSubMenu(new cMenuText(tr("Summary"), recording->Info()->Description()));
+#else
       return AddSubMenu(new cMenuText(tr("Summary"), recording->Summary()));
+#endif
 #else
       return AddSubMenu(new cMenuItemText(tr("Summary"), recording->Summary()));
 #endif

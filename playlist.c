@@ -378,10 +378,11 @@ bool cPluginPlaylist::Start(void)
   asprintf(&p, "%s%s%s", q, *(q + strlen(q) - 1) == '/' ? "" : "/", playlistconfigfile.u);
   if (!access(playlistconfigfile.u, F_OK) && !access(playlistconfigfile.u, R_OK) || !access(p, F_OK) && !access(p, R_OK))
   {
+    char *s;
     #define MAXARGS 100
     int fargc = 1;
     char *fargv[MAXARGS];
-    char buffer[MAXPARSEBUFFER];
+    cReadLine ReadLine;
     bool done;
     FILE *f;
 
@@ -405,9 +406,9 @@ bool cPluginPlaylist::Start(void)
       esyslog("%s: ERROR: cannot open config file: [%s]%s", plugin_name, ConfigDirectory(""), playlistconfigfile.u);
       return false;
     }
-    while (fgets(buffer, sizeof(buffer), f) > 0)
+    while ((s = ReadLine.Read(f)) != NULL)
     {
-      p = skipspace(stripspace(buffer));
+      p = skipspace(stripspace(s));
       q = NULL;
       done = false;
       while (!done)

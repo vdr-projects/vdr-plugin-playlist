@@ -145,7 +145,11 @@ bool cPlaylistRecord::CopyFromRecording(cRecording *Recording)
     char *temp = strrchr(title, '\t');
     if (temp)
       *temp = 0;
+#if VDRVERSNUM >= 10325
+    summary = recording->Info()->Description() ? strdup(recording->Info()->Description()) : NULL;
+#else
     summary = recording->Summary() ? strdup(recording->Summary()) : NULL;
+#endif
     return true;
   }
   isdel = true;
