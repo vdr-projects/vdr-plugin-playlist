@@ -10,7 +10,6 @@
 #include "menuplaylists.h"
 #include "menucontrol.h"
 #include "menusetup.h"
-#include "i18n.h"
 #include "vdrtools.h"
 #include <getopt.h>
 #include <ctype.h>
@@ -370,7 +369,6 @@ void TestI18n(char *Test)
 bool cPluginPlaylist::Start(void)
 {
   // Start any background activities the plugin shall perform.
-  RegisterI18n(Phrases);
   TestAndSetOSDLanguage();
 
 #ifdef PL_Debug1

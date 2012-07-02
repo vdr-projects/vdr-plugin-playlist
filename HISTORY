@@ -20,3 +20,7 @@ VDR Plugin 'playlist' Revision History
     Changes for VDR >= 1.5.7 by Thomas Günther <tom@toms-cafe.de>
     Changes for VDR >= 1.7.3 by Thomas Günther <tom@toms-cafe.de>
 
+2012-07-02 Martin Dummer <martin.dummer@gmx.net>
+
+- convert i18n handling to gettext
+

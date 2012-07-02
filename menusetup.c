@@ -10,7 +10,6 @@
 #include "playlist.h"
 #include "menuplaylists.h"
 #include "menucontrol.h"
-#include "i18n.h"
 #include "vdrtools.h"
 #include <vdr/plugin.h>
 

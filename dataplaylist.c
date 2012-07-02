@@ -10,7 +10,6 @@
 #include <unistd.h>
 #include "dataplaylist.h"
 #include "playlist.h"
-#include "i18n.h"
 #include "vdrtools.h"
 #include <vdr/keys.h>
 #include <vdr/tools.h>

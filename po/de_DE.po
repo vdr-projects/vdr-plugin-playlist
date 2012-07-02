@@ -1,0 +1,588 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@tvdr.de>
+# This file is distributed under the same license as the VDR package.
+# Klaus Schmidinger <kls@tvdr.de>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: martin.dummer@gmx.net\n"
+"POT-Creation-Date: 2012-07-02 14:30+0200\n"
+"PO-Revision-Date: 2012-07-02 14:30+0200\n"
+"Last-Translator: Klaus Schmidinger <kls@tvdr.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dataplaylist.c:134 menuplaylist.c:173 vdrtools.c:112
+msgid "Error while accessing recording!"
+msgstr ""
+
+#: menucontrol.c:84
+msgid "Play$Currently play first Record! Jump to last?"
+msgstr "Erste Aufnahme wird gespielt! Zur letzten gehen?"
+
+#: menucontrol.c:99
+msgid "Play$Currently play last Record! Jump to first?"
+msgstr "Letzte Aufnahme wird gespielt! Zur ersten gehen?"
+
+#: menucontrol.c:138
+msgid "Play$Delete recording:"
+msgstr "Aufnahme löschen:"
+
+#: menucontrol.c:152
+msgid "Play$Start next recording:"
+msgstr "Nächste Aufnahme starten:"
+
+#: menuplaylist.c:76 vdrtools.c:159
+msgid "Recordings"
+msgstr ""
+
+#: menuplaylist.c:83 menuplaylist.c:85 menuplaylist.c:89
+msgid "Display$prepare recording display..."
+msgstr "Listenanzeige wird vorbereitet..."
+
+#: menuplaylist.c:151
+msgid "Open"
+msgstr ""
+
+#: menuplaylist.c:153 menuplaylist.c:158 menuplaylist.c:160
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: menuplaylist.c:153 menuplaylist.c:158 menuplaylist.c:160 menuplaylist.c:684
+msgid "Mark"
+msgstr ""
+
+#: menuplaylist.c:153 menuplaylist.c:158 menuplaylist.c:160
+msgid "UnMark"
+msgstr "Demakieren"
+
+#: menuplaylist.c:158 menuplaylist.c:160 menuplaylist.c:383 menuplaylist.c:684
+#: menuplaylists.c:342
+msgid "Delete"
+msgstr ""
+
+#: menuplaylist.c:158 menuplaylist.c:160 menuplaylist.c:383
+msgid "Select"
+msgstr "Auswahl"
+
+#: menuplaylist.c:158 menuplaylist.c:160 menuplaylist.c:271 menuplaylist.c:273
+#: menuplaylist.c:276 menuplaylist.c:383 menuplaylist.c:491 menuplaylist.c:493
+msgid "Summary"
+msgstr ""
+
+#: menuplaylist.c:222
+msgid "Add selected Record to Playlist?"
+msgstr "Ausgewählte Aufnahme hinzufügen?"
+
+#: menuplaylist.c:245 vdrtools.c:74
+msgid "Delete recording?"
+msgstr "Aufnahme löschen?"
+
+#: menuplaylist.c:331
+msgid "Edit$Confirm Options"
+msgstr "Bestätigung der Optionen"
+
+#: menuplaylist.c:331
+msgid "Edit$Edit Record"
+msgstr "Bearbeite Aufnahme"
+
+#: menuplaylist.c:370
+msgid "OptionPL$is:"
+msgstr "ist:"
+
+#: menuplaylist.c:399
+msgid "Path"
+msgstr ""
+
+#: menuplaylist.c:458 menuplaylists.c:57
+msgid "OptionPL$Name"
+msgstr "Name"
+
+#: menuplaylist.c:464 menuplaylists.c:63
+msgid "OptionPL$Search new records on folders"
+msgstr "Verzeichnissuche neue Aufnahmen"
+
+#: menuplaylist.c:466 menuplaylists.c:65
+msgid "OptionPL$Search records on subfolders"
+msgstr "Aufnahmen in Unterverzei. suchen"
+
+#: menuplaylist.c:468 menuplaylists.c:67
+msgid "OptionPL$Play only new Records"
+msgstr "Nur neue Aufzeichnungen abspielen"
+
+#: menuplaylist.c:471 menuplaylists.c:69
+msgid "OptionPL$Jump to first segment of movie"
+msgstr "Zum ersten Filmteil sprigen"
+
+#: menuplaylist.c:473 menuplaylists.c:71
+msgid "OptionPL$Confirm start new record"
+msgstr "Frage bei Start neue Wiedergabe"
+
+#: menuplaylist.c:475 menuplaylists.c:73
+msgid "OptionPL$Remove records after play from list"
+msgstr "PL-Eintrag n. Wiedergabe streichen"
+
+#: menuplaylist.c:477 menuplaylists.c:75
+msgid "OptionPL$Delete records after play"
+msgstr "Löschen Aufn. nach Wiedergabe"
+
+#: menuplaylist.c:481 menuplaylists.c:79
+msgid "OptionPL$  Confirm delete records"
+msgstr "  Bestätigung löschen Aufnahmen"
+
+#: menuplaylist.c:559
+msgid "Error$Missing playlistentry name!"
+msgstr "Name für Eintrag in Playlist fehlt!"
+
+#: menuplaylist.c:634
+msgid "Error$Playlistentry or Record is deleted"
+msgstr "Playlisteintrag oder Aufnahme ist gelöscht"
+
+#: menuplaylist.c:640
+msgid "Error$Playlistentry is not set"
+msgstr "Playlist-Eintrag ist fehlerhaft"
+
+#: menuplaylist.c:650
+msgid "Display$Display Playlist"
+msgstr "Anzeige Playlist"
+
+#: menuplaylist.c:684 menuplaylist.c:686 menuplaylists.c:342
+#: menuplaylists.c:348
+msgid "New"
+msgstr ""
+
+#: menuplaylist.c:684 menuplaylists.c:342 vdrtools.c:144
+msgid "Play"
+msgstr ""
+
+#: menuplaylist.c:710
+msgid "Error$At this position and after no recording found!"
+msgstr "Dieser Position und danach ist keine Aufnahme"
+
+#: menuplaylist.c:717 menuplaylists.c:374
+msgid "Question$No new recording found! Play first?"
+msgstr "Keine neuen Aufnahmen! Erste abspielen?"
+
+#: menuplaylist.c:725
+msgid "Question$Play selected recording?"
+msgstr "Ausgewählte Aufnahme abspielen?"
+
+#: menuplaylist.c:730 menuplaylists.c:382
+msgid "Question$Play last played recording?"
+msgstr "Zuletzt gespielte Aufnahme abspielen?"
+
+#: menuplaylist.c:735 menuplaylists.c:387
+msgid "Question$Play first new recording?"
+msgstr "Erste neue Aufnahme abspielen?"
+
+#: menuplaylist.c:848
+msgid "Edit$Delete Playlistentry?"
+msgstr "Löschen des Playlist-Eintrags?"
+
+#: menuplaylist.c:893
+msgid "Error$Move between folders and not folders not allowed."
+msgstr "Vers. zw. Verzeichniss und normal nicht erlaubt"
+
+#: menuplaylists.c:20
+msgid "Edit$Create Playlist"
+msgstr "Erstelle Playlist"
+
+#: menuplaylists.c:20
+msgid "Edit$Edit Playlist"
+msgstr "Bearbeite Playlist"
+
+#: menuplaylists.c:59
+msgid "OptionPL$In playlistview starts play at"
+msgstr "Wiedergabe bei Übersicht startet"
+
+#: menuplaylists.c:61
+msgid "OptionPL$In detailview starts play at"
+msgstr "Wiedergabe bei Playliste startet"
+
+#: menuplaylists.c:119
+msgid "OptionPL$Effective setting is:"
+msgstr "Aktuelle Einstellung ist:"
+
+#: menuplaylists.c:154
+msgid "Error$Missing playlist name!"
+msgstr "Name für Playlist fehlt!"
+
+#: menuplaylists.c:169
+msgid "Error$same name of playlist exists!"
+msgstr "Gleicher Name der Playlist ist vorhanden"
+
+#: menuplaylists.c:197
+msgid "Discard all changes?"
+msgstr "Alle Änderungen verwerfen?"
+
+#: menuplaylists.c:245
+msgid "Display$Display Playlists"
+msgstr "Übersicht Playlisten"
+
+#: menuplaylists.c:255 menuplaylists.c:261 menuplaylists.c:263
+msgid "scanning recordings..."
+msgstr ""
+
+#: menuplaylists.c:278 menuplaylists.c:280 menuplaylists.c:284
+msgid "Display$prepare playlists display..."
+msgstr "Listenanzeige wird vorbereitet..."
+
+#: menuplaylists.c:342 menuplaylists.c:343
+msgid "Edit"
+msgstr ""
+
+#: menuplaylists.c:343
+msgid "Option"
+msgstr "Optionen"
+
+#: menuplaylists.c:417
+msgid "Error$Playlist is currently used by played recording"
+msgstr "Aktuelle Wiedergabe benutzt diese Playliste"
+
+#: menuplaylists.c:422
+msgid "Edit$Delete Playlist?"
+msgstr "Löschen der Playlist?"
+
+#: menusetup.c:145
+msgid "Setup$Display playlists now"
+msgstr "Jetzt Playlisten anzeigen"
+
+#: menusetup.c:146
+msgid "Setup$Play last playlist now"
+msgstr "Letzte Playlist wiedergeben"
+
+#: menusetup.c:148
+msgid "Setup$Preferr Command Line Parameter"
+msgstr "Kommandozeile hat Vorrang"
+
+#: menusetup.c:150
+msgid "Setup$Visible in Mainmenu"
+msgstr "Im Hauptmenü sichtbar"
+
+#: menusetup.c:152
+msgid "Setup$  Name for Mainmenu"
+msgstr "  Eintragname im Hauptmenü"
+
+#: menusetup.c:154
+msgid "Setup$Startoptions for plugin"
+msgstr "Startoptionen des Plugins"
+
+#: menusetup.c:156
+msgid "Setup$Edit"
+msgstr "Bearbeitung"
+
+#: menusetup.c:156
+msgid "Setup$Play"
+msgstr "Wiedergabe"
+
+#: menusetup.c:156
+msgid "Setup$Press OK in Playlistview starts"
+msgstr "OK in Playlist-Ansicht startet"
+
+#: menusetup.c:158
+msgid "Setup$Store playlist after change"
+msgstr "Playlist nach Änderung speichern"
+
+#: menusetup.c:158
+msgid "Setup$after question"
+msgstr "nach Frage"
+
+#: menusetup.c:158
+msgid "Setup$automatically"
+msgstr "automatisch"
+
+#: menusetup.c:160
+msgid "Setup$Allow delete Records"
+msgstr "Aufnahmen löschen erlauben"
+
+#: menusetup.c:162
+msgid "Setup$Confirm delete playlistentries"
+msgstr "Frage löschen PL-Eintragungen"
+
+#: menusetup.c:166
+msgid "Setup$Path for store playlists"
+msgstr "Speicherpfad für Playlisten"
+
+#: menusetup.c:168
+msgid "Setup$Change default options for playlist"
+msgstr "Standardoptionen für Playlist ändern"
+
+#: menusetup.c:172
+msgid "OptionPL$  In playlistview starts play at"
+msgstr "  Wiedergabe bei Übersicht startet"
+
+#: menusetup.c:174
+msgid "OptionPL$  In detailview starts play at"
+msgstr "  Wiedergabe bei Playliste startet"
+
+#: menusetup.c:176
+msgid "OptionPL$  Search new records on folders"
+msgstr "  Verzeichnissuche neue Aufnahmen"
+
+#: menusetup.c:178
+msgid "OptionPL$  Search new records on subfolders"
+msgstr "  Aufnahmen in Unterverzei. suchen"
+
+#: menusetup.c:180
+msgid "OptionPL$  Play only new Records"
+msgstr "  Nur neue Aufzeichnungen abspielen"
+
+#: menusetup.c:182
+msgid "OptionPL$  Jump to first segment of movie"
+msgstr "  Zum ersten Filmteil sprigen"
+
+#: menusetup.c:184
+msgid "OptionPL$  Confirm start new record"
+msgstr "  Frage bei Start neue Wiedergabe"
+
+#: menusetup.c:186
+msgid "OptionPL$  Remove records after play from list"
+msgstr "  PL-Eintrag n. Wiedergabe streichen"
+
+#: menusetup.c:188
+msgid "OptionPL$  Delete records after play"
+msgstr "  Löschen Aufn. nach Wiedergabe"
+
+#: menusetup.c:190
+msgid "OptionPL$    Confirm delete records"
+msgstr "    Bestätigung löschen Aufnahmen"
+
+#: menusetup.c:192
+msgid "Setup$Change Character for identification"
+msgstr "Darstellungszeichen ändern"
+
+#: menusetup.c:196
+msgid "OptionPL$  Character for folders"
+msgstr "  Zeichen für Verzeichniss"
+
+#: menusetup.c:198
+msgid "OptionPL$  Character for records in folders"
+msgstr "  Zeichen für Aufn. im Verzeichnis"
+
+#: menusetup.c:200
+msgid "OptionPL$  Character for normal records"
+msgstr "  Zeichen für normale Aufnahmen"
+
+#: menusetup.c:203
+msgid "Setup$Verbose Log Mode"
+msgstr "Ausführliche Protokollierung"
+
+#: playlist.c:191
+msgid "Setup$Display PL"
+msgstr "Anzeige PL"
+
+#: playlist.c:192
+msgid "Setup$Display last PL"
+msgstr "Anz. letzte PL"
+
+#: playlist.c:193
+msgid "Setup$Play last PL"
+msgstr "Wiedergabe PL"
+
+#: playlist.c:194
+msgid "Setup$new empty PL"
+msgstr "leere PL"
+
+#: playlist.c:195
+msgid "no"
+msgstr ""
+
+#: playlist.c:196
+msgid "yes"
+msgstr ""
+
+#: playlist.c:197 playlist.c:205
+msgid "OptionPL$[from Setup]"
+msgstr "[von Einstellung]"
+
+#: playlist.c:198
+msgid "OptionPL$[from Playlist]"
+msgstr "[von Playlist]"
+
+#: playlist.c:199
+msgid "OptionPL$[from Folder]"
+msgstr "[von Verzeichniss]"
+
+#: playlist.c:200
+msgid "OptionPL$first pos"
+msgstr "erste Position"
+
+#: playlist.c:201
+msgid "OptionPL$first new"
+msgstr "erste neue"
+
+#: playlist.c:202
+msgid "OptionPL$last played"
+msgstr "letzte Wiederg."
+
+#: playlist.c:203
+msgid "OptionPL$seletced pos"
+msgstr "ausgewählte"
+
+#: playlist.c:204
+msgid "OptionPL$question"
+msgstr "Frage"
+
+#: vdrtools.c:79
+msgid "Timer still recording - really delete?"
+msgstr ""
+
+#: vdrtools.c:123
+msgid "Up"
+msgstr ""
+
+#: vdrtools.c:124
+msgid "Down"
+msgstr ""
+
+#: vdrtools.c:125
+msgid "Menu"
+msgstr ""
+
+#: vdrtools.c:126
+msgid "Ok"
+msgstr ""
+
+#: vdrtools.c:127
+msgid "Back"
+msgstr ""
+
+#: vdrtools.c:128
+msgid "Left"
+msgstr ""
+
+#: vdrtools.c:129
+msgid "Right"
+msgstr ""
+
+#: vdrtools.c:130
+msgid "Red"
+msgstr ""
+
+#: vdrtools.c:131
+msgid "Green"
+msgstr ""
+
+#: vdrtools.c:132
+msgid "Yellow"
+msgstr ""
+
+#: vdrtools.c:133
+msgid "Blue"
+msgstr ""
+
+#: vdrtools.c:145
+msgid "Pause"
+msgstr ""
+
+#: vdrtools.c:146
+msgid "Stop"
+msgstr ""
+
+#: vdrtools.c:147
+msgid "Record"
+msgstr ""
+
+#: vdrtools.c:148
+msgid "FastFwd"
+msgstr ""
+
+#: vdrtools.c:149
+msgid "FastRew"
+msgstr ""
+
+#: vdrtools.c:150
+msgid "Power"
+msgstr ""
+
+#: vdrtools.c:151
+msgid "ChanUp"
+msgstr ""
+
+#: vdrtools.c:152
+msgid "ChanDn"
+msgstr ""
+
+#: vdrtools.c:153
+msgid "VolUp"
+msgstr ""
+
+#: vdrtools.c:154
+msgid "VolDn"
+msgstr ""
+
+#: vdrtools.c:155
+msgid "Mute"
+msgstr ""
+
+#: vdrtools.c:156
+msgid "Schedule"
+msgstr ""
+
+#: vdrtools.c:157
+msgid "Channels"
+msgstr ""
+
+#: vdrtools.c:158
+msgid "Timers"
+msgstr ""
+
+#: vdrtools.c:160
+msgid "Setup"
+msgstr ""
+
+#: vdrtools.c:161
+msgid "Commands"
+msgstr ""
+
+#: vdrtools.c:162
+msgid "User1"
+msgstr ""
+
+#: vdrtools.c:163
+msgid "User2"
+msgstr ""
+
+#: vdrtools.c:164
+msgid "User3"
+msgstr ""
+
+#: vdrtools.c:165
+msgid "User4"
+msgstr ""
+
+#: vdrtools.c:166
+msgid "User5"
+msgstr ""
+
+#: vdrtools.c:167
+msgid "User6"
+msgstr ""
+
+#: vdrtools.c:168
+msgid "User7"
+msgstr ""
+
+#: vdrtools.c:169
+msgid "User8"
+msgstr ""
+
+#: vdrtools.c:170
+msgid "User9"
+msgstr ""
+
+#: vdrtools.c:171
+msgid "none"
+msgstr ""
+
+#: vdrtools.c:172
+msgid "Kbd"
+msgstr ""
+
+#: vdrtools.c:173
+msgid "unknow"
+msgstr ""

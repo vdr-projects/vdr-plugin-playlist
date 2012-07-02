@@ -9,7 +9,6 @@
 #include "vdrtools.h"
 #include "playlist.h"
 #include "dataplaylist.h"
-#include "i18n.h"
 #include <vdr/menu.h>
 #include <vdr/interface.h>
 
